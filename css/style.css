@@ -17,22 +17,185 @@ h1,h2,h3,h4,h5,h6{
 ul, ol{
   list-style-type: none;
 }
+body{
+  font-family: "Poppins", sans-serif;
+ 
+}
 /* ?All Common CSS End  */
 
 
-/* ?Header Part Start */
-/* ?Header Part End */
+/* ?navber Part Start */
+
+.nav-link{
+  margin: 25px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 1.5px;
+  color: #000000;
+}
+a.mCb{
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  background: #5E3BEE;
+  padding: 15px 21px;
+  border-radius: 50px;
+
+}
+a.mCb i{
+  color: #FFFFFF;
+    padding-left: 10px;
+
+}
+/* ?Naveber Part End */
 
 
-/* ?Header Part Start */
-/* ?Header Part End */
+/* ?Banner Part Start */
+#bannerPart{
+  background-color: #F9F9FC;
+  padding-top: 20px;
+  padding-bottom: 46px;
+}
+.textLeft h1{
+  width: 479px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  color: #333333;
+  padding-bottom: 47px;
+}
+.textLeft h6{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+color: #5E3BEE;
+}
+.textLeft a.button{
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  background: #5E3BEE;
+   padding: 15px 21px;
+   border-radius: 50px;
+}
+.textLeft a i{
+  margin-right: 10px;;
+}
+.textLeft a.noEdit{
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+ color: #000000;
+ margin-left: 23px;
+ padding: 15px 21px;
+ border-radius: 50px;
+}
+.textLeft a.noEdit:hover{
+ background: #5E3BEE;
+ color: #FFFFFF;
+ 
 
 
-/* ?Header Part Start */
-/* ?Header Part End */
+}
+
+/* .textLeft .fa-solid {
+  margin-right: 10px;
+} */
+/* ?Bnner Part End */
 
 
-/* ?Header Part Start */
+/* ?PortFolio Part Start */
+
+#PortFolio{
+  padding: 85px 0;
+}
+.boxOne{text-align: center;}
+.boxOne span{
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 56px;
+  color: #000000;
+  
+}
+.boxOne .another{
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  color: rgba(18, 18, 18, 0.70);
+  display: block;
+
+}
+/* ?PortFolio Part End */
+
+
+/* ?Service Part Start */
+#servicePart{
+  margin: 138px 0;
+}
+
+.serviceText{
+  width: 639PX;
+  text-align: center;
+}
+.serviceText h6{
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 26px;
+ letter-spacing: 1.5px;
+ color: #5E3BEE;
+}
+
+.serviceText h2{
+ font-size: 44px;
+ font-weight: 600;
+ line-height: 56px;
+ letter-spacing: 1.5px;
+ color:#000000;
+}
+
+.serviceText p{
+ font-size: 16px;
+ font-weight: 600;
+ line-height: 32px;
+ letter-spacing: 0.5px;
+ color:rgba(0, 0, 0, 0.70);
+}
+
+.boxOnee{
+  background-color: #FFFFFF;
+  box-shadow: 37px 37px 80px  rgba(0, 0, 0, 0.1);
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+padding-left: 71px;
+padding-right:62px ;
+border-radius: 10px;
+margin-top: 64px;
+}
+
+.boxOnee h3{
+font-size: 20px;
+line-height: 32px;
+letter-spacing: 0.5px;
+padding-bottom: 10px;
+}
+.boxOnee p{
+font-size: 20px;
+line-height: 32px;
+letter-spacing: 0.5px;
+
+
+}
+
+
+
+
 /* ?Header Part End */
 
 
